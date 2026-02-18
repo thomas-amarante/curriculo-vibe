@@ -1,0 +1,28 @@
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--card-medium-blue);
+  margin-top: 4rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.socialLinks a {
+  color: var(--text-secondary);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: var(--cta-orange);
+  transform: scale(1.1);
+}
+
+.footer p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}

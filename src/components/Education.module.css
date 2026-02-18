@@ -1,0 +1,43 @@
+.education {
+  padding: 4rem 2rem;
+  background-color: var(--card-medium-blue);
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background: var(--background-deep-blue);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid var(--accent-bright-blue);
+  flex-basis: 300px;
+}
+
+.iconWrapper {
+  margin-bottom: 1rem;
+}
+
+.institution {
+  font-size: 1.5rem;
+  color: var(--cta-orange);
+  margin: 0 0 0.5rem;
+}
+
+.course, .period {
+  color: var(--text-secondary);
+  margin: 0;
+}

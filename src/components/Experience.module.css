@@ -1,0 +1,66 @@
+.experience {
+  padding: 4rem 2rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: var(--accent-bright-blue);
+  top: 0;
+  bottom: 0;
+  left: 20px;
+}
+
+.timelineItem {
+  padding: 1rem 0 2rem 50px;
+  position: relative;
+}
+
+.iconWrapper {
+  position: absolute;
+  left: 0;
+  top: 15px;
+  background-color: var(--background-deep-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--accent-bright-blue);
+  z-index: 1;
+}
+
+.content {
+  background: var(--card-medium-blue);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.role {
+  font-size: 1.5rem;
+  color: var(--cta-orange);
+  margin: 0 0 0.5rem;
+}
+
+.company, .period {
+  color: var(--text-secondary);
+  margin: 0 0 1rem;
+}
+
+.description {
+  line-height: 1.6;
+}
