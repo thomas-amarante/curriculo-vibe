@@ -18,7 +18,7 @@ const Education = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <div className={styles.iconWrapper}>
-              <GraduationCap size={40} color="var(--cta-orange)" />
+              <GraduationCap size={40} color="var(--accent-titanium)" />
             </div>
             <h3 className={styles.institution}>{item.institution}</h3>
             <p className={styles.course}>{item.course}</p>

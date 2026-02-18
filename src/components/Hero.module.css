@@ -13,40 +13,37 @@
 }
 
 .name {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 5rem;
+  font-weight: 700;
   margin: 0;
-  background: linear-gradient(90deg, var(--accent-bright-blue), var(--cta-orange));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text-secondary);
-  margin: 1rem 0 2rem;
+  font-weight: 400;
+  margin: 1rem 0 3rem;
 }
 
 .ctaButton {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   border-radius: 50px;
-  background-color: var(--cta-orange);
-  color: var(--text-primary);
+  background-color: var(--text-primary);
+  color: var(--background-black);
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
-  border: none;
+  border: 1px solid var(--text-primary);
   cursor: pointer;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ctaButton:hover {
-  background-color: var(--accent-bright-blue);
-  box-shadow: 0 6px 25px rgba(40, 69, 214, 0.5);
+  background-color: transparent;
+  color: var(--text-primary);
 }

@@ -1,6 +1,6 @@
 .skills {
   padding: 4rem 2rem;
-  background-color: var(--card-medium-blue);
+  background-color: var(--background-black);
 }
 
 .title {
@@ -23,10 +23,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: var(--background-deep-blue);
+  background-color: var(--surface-dark);
   padding: 0.75rem 1.5rem;
-  border-radius: 20px;
-  font-size: 1rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
   font-weight: 500;
-  border: 1px solid var(--accent-bright-blue);
+  border: 1px solid var(--border-muted);
+  color: var(--text-primary);
 }

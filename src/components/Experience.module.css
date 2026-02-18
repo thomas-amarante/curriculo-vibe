@@ -17,8 +17,8 @@
 .timeline::after {
   content: '';
   position: absolute;
-  width: 2px;
-  background-color: var(--accent-bright-blue);
+  width: 1px;
+  background-color: var(--border-muted);
   top: 0;
   bottom: 0;
   left: 20px;
@@ -33,26 +33,28 @@
   position: absolute;
   left: 0;
   top: 15px;
-  background-color: var(--background-deep-blue);
+  background-color: var(--background-black);
   width: 40px;
   height: 40px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--accent-bright-blue);
+  border: 1px solid var(--border-muted);
   z-index: 1;
 }
 
 .content {
-  background: var(--card-medium-blue);
+  background: var(--surface-dark);
   padding: 1.5rem;
-  border-radius: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border-muted);
 }
 
 .role {
   font-size: 1.5rem;
-  color: var(--cta-orange);
+  color: var(--text-primary);
+  font-weight: 600;
   margin: 0 0 0.5rem;
 }
 

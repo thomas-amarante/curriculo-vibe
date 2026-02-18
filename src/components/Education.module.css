@@ -1,6 +1,6 @@
 .education {
   padding: 4rem 2rem;
-  background-color: var(--card-medium-blue);
+  background-color: var(--surface-dark);
 }
 
 .title {
@@ -19,11 +19,11 @@
 }
 
 .card {
-  background: var(--background-deep-blue);
+  background: var(--background-black);
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
-  border: 1px solid var(--accent-bright-blue);
+  border: 1px solid var(--border-muted);
   flex-basis: 300px;
 }
 
@@ -33,7 +33,8 @@
 
 .institution {
   font-size: 1.5rem;
-  color: var(--cta-orange);
+  color: var(--text-primary);
+  font-weight: 600;
   margin: 0 0 0.5rem;
 }
 

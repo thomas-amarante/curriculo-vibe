@@ -18,7 +18,7 @@ const Experience = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <div className={styles.iconWrapper}>
-              <Briefcase color="var(--cta-orange)" />
+              <Briefcase color="var(--accent-titanium)" />
             </div>
             <div className={styles.content}>
               <h3 className={styles.role}>{item.role}</h3>
