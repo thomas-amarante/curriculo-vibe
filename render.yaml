@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: curriculo-vibe-thomas
+    runtime: docker
+    plan: free
+    region: ohio
+    envVars:
+      - key: PORT
+        value: 80
