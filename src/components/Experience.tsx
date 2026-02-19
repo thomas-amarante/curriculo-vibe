@@ -8,7 +8,7 @@ const Experience = () => {
     <section id="experience" className={styles.experience}>
       <h2 className={styles.title}>Experiência Profissional</h2>
       <div className={styles.timeline}>
-        {experience.map((item, index) => (
+        {experience.filter(item => !item.role.toLowerCase().includes("estágio") && !item.role.toLowerCase().includes("estagiário")).map((item, index) => (
           <motion.div
             key={index}
             className={styles.timelineItem}
@@ -18,7 +18,7 @@ const Experience = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <div className={styles.iconWrapper}>
-              <Briefcase color="var(--accent-titanium)" />
+              <Briefcase color="var(--accent-indigo)" />
             </div>
             <div className={styles.content}>
               <h3 className={styles.role}>{item.role}</h3>

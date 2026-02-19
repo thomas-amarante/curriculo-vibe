@@ -17,7 +17,7 @@ const Skills = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <CheckCircle color="var(--accent-titanium)" size={20} />
+            <CheckCircle color="var(--accent-indigo)" size={20} />
             <span>{skill}</span>
           </motion.div>
         ))}

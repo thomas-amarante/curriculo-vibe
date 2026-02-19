@@ -1,12 +1,5 @@
 export const projects = [
   {
-    title: 'Automação e Containerização de Portfólio',
-    description: 'Desenvolvimento de ambiente de portfólio utilizando Docker e Nginx, com pipeline de deploy automatizado via Render.com e GitHub Actions.',
-    tags: ['Docker', 'CI/CD', 'Nginx', 'GitHub Actions'],
-    github: null,
-    link: null
-  },
-  {
     title: 'Infraestrutura de Data Center (Dell)',
     description: 'Consultoria técnica avançada em soluções de infraestrutura, incluindo servidores PowerEdge, switches networking e ambientes hiperconvergentes (VxRail).',
     tags: ['Hardware', 'Networking', 'Virtualization', 'Data Center'],
@@ -14,27 +7,42 @@ export const projects = [
     link: null
   },
   {
-    title: 'Suporte e Virtualização (TRE/SSP)',
-    description: 'Configuração e administração de máquinas virtuais (VMware) e ambientes Linux, além de suporte a redes físicas e lógicas.',
-    tags: ['Linux', 'VMware', 'Networking', 'Active Directory'],
+    title: 'Inteligência de Negócios (Power BI) - Dell',
+    description: 'Desenvolvimento de dashboards estratégicos para análise de KPIs e performance, transformando dados complexos em insights acionáveis para otimização de processos.',
+    tags: ['Power BI', 'Data Analytics', 'BI', 'Business Intelligence'],
+    github: null,
+    link: null
+  },
+  {
+    title: 'Automação e Containerização de Portfólio',
+    description: 'Desenvolvimento de ambiente de portfólio utilizando Docker e Nginx, com pipeline de deploy automatizado via Render.com e GitHub Actions.',
+    tags: ['Docker', 'CI/CD', 'Nginx', 'GitHub Actions'],
+    github: null,
+    link: null
+  },
+  {
+    title: 'Empreendedorismo: Fundador DL Tech',
+    description: 'Gestão integral de negócio próprio focado em acessórios mobile e assistência técnica especializada para notebooks e smartphones, unindo visão comercial e suporte técnico.',
+    tags: ['Empreendedorismo', 'Gestão', 'Suporte Técnico', 'Vendas'],
     github: null,
     link: null
   },
 ];
 
 export const skills = [
-  'Linux (Debian/Ubuntu/CentOS)',
-  'Docker & Containerização',
-  'Virtualização (VMware/vSphere)',
+  'Linux Basics',
+  'Docker e containerização Basics',
+  'Virtualização (Hyper-v/Vsphere/Proxmox)',
   'Networking (Switching/Routing/VLANs)',
   'Infraestrutura de Data Center',
   'CI/CD Basics',
-  'Shell Scripting',
-  'Git & Versionamento',
   'Cloud Computing Basics',
-  'PHP/JavaScript (Web Dev)',
   'Active Directory',
-  'Hardware (Servidores/Storage)'
+  'Hardware (Servidores/Storage)',
+  'Vendas consultivas',
+  'PowerBI',
+  'Inteligência de negócios',
+  'Data Analitycs'
 ];
 
 export const education = [
@@ -53,26 +61,32 @@ export const education = [
 export const experience = [
   {
     company: 'Dell Technologies',
-    role: 'Especialista de Infraestrutura (Interno de Produtos II)',
+    role: 'Especialista Interno de Produtos 2',
     period: 'Out 2021 - Presente',
-    description: 'Consultoria em portfólio de Data Center: Servidores, Storages, Networking e soluções Hiperconvergentes. Foco em arquitetura de hardware para suporte a aplicações críticas.'
+    description: 'Consultoria avançada no portfólio de Data Center (servidores, switches, storages e ambientes hiperconvergentes). Gestão de KPIs, acompanhamento técnico de negociações e treinamento para o time de vendas.'
+  },
+  {
+    company: 'DL Tech Acessórios Mobile (Fundador)',
+    role: 'Proprietário e Especialista Técnico',
+    period: 'Set 2020 - Dez 2021',
+    description: 'Gestão completa do negócio, vendas de acessórios mobile e prestação de assistência técnica para celulares e notebooks.'
   },
   {
     company: 'Lettel Cloud Enterprise',
-    role: 'Pré-vendas Técnico (Networking)',
+    role: 'Pré-vendas Técnico',
     period: 'Nov 2018 - Mai 2020',
-    description: 'Atuação direta com infraestrutura de rede Alcatel-Lucent, focando em LAN e WLAN para grandes empresas e setor público.'
+    description: 'Especialista em networking Alcatel-Lucent (LAN/WLAN). Análise de editais, defesa técnica de projetos, instalação, configuração e treinamento de canais em todo o Brasil.'
   },
   {
-    company: 'WebDB Design',
-    role: 'Estagiário de Desenvolvimento Web',
-    period: 'Abr 2012 - Jun 2012',
-    description: 'Manutenção de sites e ferramentas utilizando PHP, JavaScript e Linux para servidores web.'
+    company: 'Dell Technologies',
+    role: 'Gerente de Contas (Dell Experts)',
+    period: 'Fev 2016 - Mar 2017',
+    description: 'Gestão de carteira de consultores de TI. Identificação de oportunidades em infraestrutura (servidores, storage, networking) e venda consultiva de soluções Enterprise.'
   },
   {
-    company: 'Tribunal Regional Eleitoral (TRE)',
-    role: 'Estagiário de Suporte Técnico',
-    period: 'Mar 2012 - Abr 2012',
-    description: 'Configuração de máquinas virtuais (VMware), administração básica de ambientes Linux e suporte a redes locais.'
+    company: 'Dell Technologies',
+    role: 'Representante Interno de Vendas',
+    period: 'Jul 2014 - Jan 2016',
+    description: 'Venda consultiva e prospecção no segmento Small Business. Qualificação de necessidades, construção de relacionamento e gestão de pipeline para clientes PJ e PF.'
   }
 ];

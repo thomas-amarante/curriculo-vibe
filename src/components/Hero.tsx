@@ -12,7 +12,7 @@ const Hero = () => {
         className={styles.heroContent}
       >
         <h1 className={styles.name}>Thomas Ferreira Amarante</h1>
-        <p className={styles.title}>DevOps Engineer | Cloud & Infrastructure Specialist</p>
+        <p className={styles.title}>Soluções para Datacenter | Infraestrutura física e virtual | Vendas consultivas</p>
         <motion.a
           href="#projects"
           className={styles.ctaButton}
