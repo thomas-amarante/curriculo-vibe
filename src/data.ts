@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Infraestrutura de Data Center (Dell)',
-    description: 'Consultoria técnica avançada em soluções de infraestrutura, incluindo servidores PowerEdge, switches networking e ambientes hiperconvergentes (VxRail).',
+    description: 'Consultoria técnica avançada em soluções de infraestrutura, incluindo servidores PowerEdge, Switches L2 e L3, Storages de alta performance e ambientes escaláveis.',
     tags: ['Hardware', 'Networking', 'Virtualization', 'Data Center'],
     github: null,
     link: null

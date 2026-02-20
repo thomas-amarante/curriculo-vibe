@@ -1,0 +1,125 @@
+.brandsSection {
+  padding: 4rem 0;
+  background: transparent;
+  overflow: hidden;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 3rem;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.slider {
+  height: 80px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Efeito de fade nas bordas para o carrossel não "cortar" secamente */
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, var(--background-black) 0%, transparent 100%);
+  content: "";
+  height: 80px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slideTrack {
+  display: flex;
+  width: calc(250px * 18); /* 250px por logo * total de logos (duplicado: 9 * 2) */
+  animation: scroll 40s linear infinite;
+}
+
+.slideTrack:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.logo {
+  max-height: 40px;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(1) brightness(1.5) opacity(0.6);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo:hover {
+  filter: grayscale(0) brightness(1.2) opacity(1);
+  transform: scale(1.1);
+}
+
+.alwaysWhite {
+  filter: grayscale(1) brightness(0) invert(1) opacity(0.9) !important;
+}
+
+.alwaysWhite:hover {
+  filter: grayscale(1) brightness(0) invert(1) opacity(1) !important;
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 9)); } /* Move metade da largura total (9 logos) */
+}
+
+.intelLogo, .windowsServerLogo {
+  max-height: 70px !important;
+  max-width: 200px !important;
+}
+
+@media (max-width: 768px) {
+  .brandsSection {
+    padding: 3rem 0;
+  }
+  .slide {
+    width: 180px;
+  }
+  .slideTrack {
+    width: calc(180px * 18);
+    animation-duration: 35s;
+  }
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-180px * 9)); }
+  }
+  .intelLogo, .windowsServerLogo {
+    max-height: 45px !important;
+    max-width: 140px !important;
+  }
+}
